@@ -25,3 +25,6 @@ root.render(       //root  ko render karo
     <App />            
   
 );
+
+
+//reactScript in package-json injects the javaSript behind the index.html of public 
