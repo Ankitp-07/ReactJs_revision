@@ -63,7 +63,7 @@ function App() {
       <h4>example samaptt!!!</h4>
 
       </>
-    //</div>   //instead of div tag  , but can use  <> .... </>  it is called as fragment tag  
+    //</div>   //instead of div tag  , we can use  <> .... </>  it is called as fragment tag  
     
   )
 }
