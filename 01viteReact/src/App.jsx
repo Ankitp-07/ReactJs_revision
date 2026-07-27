@@ -53,7 +53,7 @@ import Example from "./Example"
 
 function App() {
   const username = "ankit patel"   //variable introduced and injected in jsx
-
+//username hamesh evaluated hi rhna chayiye , na ki if -else condition lag rha ho 
   return (
     
 
@@ -62,7 +62,7 @@ function App() {
    
       <Example />
       <p>helloo this para for the check of multiple elements return throught the app.jsx</p>
-      <h4>example samaptt!!! {username} </h4>
+      <h4>example samaptt!!! {username} </h4>    
 
       </>
     //</div>   //instead of div tag  , we can use  <> .... </>  it is called as fragment tag  
