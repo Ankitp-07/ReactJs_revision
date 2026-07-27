@@ -34,7 +34,7 @@ render(
 
 
 
-//if we will to remove the conversion(parsing) of html into tree , we could able to save some time , so 
+//if we will  remove the conversion(parsing) of html into tree , we could able to save some time , so 
 
 //instead of <App/> in render and App method  , we directly doing as : 
 
@@ -81,13 +81,20 @@ render(
 
 
 
+//html parsing removed and implemented using createElement in react 
+
+const varible2="    :"
+const anotherVariable = "   how variable injected here => example"
 const reactElement=React.createElement(   //in proper element and attribute form
   'a',   //tag
   {
     href:'https://google.com',
     target:'_blank'
   }   ,   //object
-  'click me visit google'   //text 
+  'click me visit google' ,  //text 
+  varible2,
+  anotherVariable
+
 
 )
 //Isme tum directly React object use kar rahe ho.
@@ -96,3 +103,16 @@ const reactElement=React.createElement(   //in proper element and attribute form
 createRoot(document.getElementById('root')).render(
   reactElement
 )
+
+
+
+
+
+/*
+//variables injected in app.jsx 
+
+createRoot(document.getElementById('root')).render(
+  <App/>
+)
+
+*/
