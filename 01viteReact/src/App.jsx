@@ -52,15 +52,17 @@ export default App
 import Example from "./Example"
 
 function App() {
-  
+  const username = "ankit patel"   //variable introduced and injected in jsx
 
   return (
-    //<div>
+    
+
+    //<div> 
     <> 
    
       <Example />
       <p>helloo this para for the check of multiple elements return throught the app.jsx</p>
-      <h4>example samaptt!!!</h4>
+      <h4>example samaptt!!! {username} </h4>
 
       </>
     //</div>   //instead of div tag  , we can use  <> .... </>  it is called as fragment tag  
