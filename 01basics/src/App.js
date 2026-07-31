@@ -19,10 +19,9 @@ export default App;
 
 import Example2 from './Example2'
 
-
 function App() {
   return (
-    <>
+    <>    //use to return multiple elemtns under one tag 
     <Example2/>
     <h1> create project  react example </h1>
     </>
