@@ -1,1 +1,1 @@
-This whole is for complete learning and practising of react and its components 
+this repo is complete react tutorial and practicess
